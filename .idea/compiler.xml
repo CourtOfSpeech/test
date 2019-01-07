@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="toor_common" />
+        <module name="toor_config" />
+        <module name="toor_erueka" />
+        <module name="toor_friend" />
+        <module name="toor_manager" />
+        <module name="toor_sms" />
+        <module name="toor_user" />
+        <module name="toor_web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="toor_common" options="-parameters" />
+      <module name="toor_config" options="-parameters" />
+      <module name="toor_erueka" options="-parameters" />
+      <module name="toor_friend" options="-parameters" />
+      <module name="toor_manager" options="-parameters" />
+      <module name="toor_sms" options="-parameters" />
+      <module name="toor_user" options="-parameters" />
+      <module name="toor_web" options="-parameters" />
+    </option>
+  </component>
+</project>
